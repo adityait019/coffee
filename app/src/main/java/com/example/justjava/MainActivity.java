@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         message=message+ "\n Quantity : "+quantity;
         message=message+"\n Has Whipped Cream : "+hasWhippedCream;
         message+="\n Has Chocolate selected : "+hasChocolateSelected;
-        message += "\nTotal: " +calculatePrice(quantity,whippedCream,chocolate) +"\u20B9"; // Use the Unicode character for the rupee symbol
+        message += "\nTotal: " +calculatePrice(quantity,whippedCream,chocolate) + "\u20B9"; // Use the Unicode character for the rupee symbol
         message=message+"\n Thank You ";
         return message;
     }
